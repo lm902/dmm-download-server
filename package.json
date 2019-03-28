@@ -1,0 +1,40 @@
+{
+  "name": "dmm-download-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lm902/dmm-download-server.git"
+  },
+  "keywords": [
+    "dmm",
+    "download",
+    "video",
+    "fanza"
+  ],
+  "author": "lm902",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lm902/dmm-download-server/issues"
+  },
+  "homepage": "https://github.com/lm902/dmm-download-server#readme",
+  "bin": "index.js",
+  "dependencies": {
+    "jsdom": "^14.0.0",
+    "jszip": "^3.2.1",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^12.2.3",
+    "@types/jszip": "^3.1.5",
+    "@types/koa": "^2.0.48",
+    "@types/koa-router": "^7.0.40",
+    "@types/node-fetch": "^2.1.7"
+  }
+}
